@@ -53,7 +53,7 @@ public class Movimiento : MonoBehaviour {
         float moveZ = movementSpeed;
 
         //Mover la nave
-        transform.Rotate(new Vector3(moveY * Time.deltaTime, moveX * Time.deltaTime, 0.0f ));
+        transform.Rotate(new Vector3(moveY * 2 * Time.deltaTime, moveX * 2 * Time.deltaTime, 0.0f));
         transform.Translate(Vector3.forward * moveZ * Time.deltaTime);
 
         //Evitar que la nave salga del obturador de la cámara
@@ -62,23 +62,18 @@ public class Movimiento : MonoBehaviour {
             Mathf.Clamp(transform.position.y, boundary.yMin, boundary.yMax),
             GameObject.FindGameObjectWithTag("MainCamera").transform.position.z + 20.0f
         );
-
-        /*
+         
+        
         //Leer orientación
-
-        //Investigar como modificar directamente un Cuaternio.
-
         Vector3 currentRotation = transform.rotation.eulerAngles;
 
         //Clampear orientación leída
-        currentRotation.x = Mathf.Clamp(currentRotation.x, rotationbound.rotXMin, rotationbound.rotXMax);
-        currentRotation.y = Mathf.Clamp(currentRotation.y, rotationbound.rotYMin, rotationbound.rotYMax);
+        currentRotation.z = 0.0f;
 
         //Aplicar orientación Clampeada
-        transform.rotation = Quaternion.Euler(currentRotation);            
-        */
+        this.transform.rotation = Quaternion.Euler(currentRotation);
 
-        //GetComponent<Rigidbody>().rotation = Quaternion.Euler(0.0f, 0.0f, GetComponent<Rigidbody>().velocity.z * -tilt);
+        //transform.rotation = Quaternion.Euler(GetComponent<Rigidbody>().velocity.x * tilt, GetComponent<Rigidbody>().velocity.y * tilt, 0.0f);
         
     }
 }
