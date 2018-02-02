@@ -53,16 +53,15 @@ public class Movimiento : MonoBehaviour {
         float moveY = Input.GetAxis("Vertical") * movementSpeed;
         float moveZ = movementSpeed;
 
-        Vector3 moveShip = new Vector3(moveX, moveY, moveZ);
-        Vector3 tiltShip = new Vector3(GetComponent<Rigidbody>().velocity.x * -tilt, GetComponent<Rigidbody>().velocity.y * -tilt, GetComponent<Rigidbody>().velocity.x * -tilt);
-
+        Vector3 moveShip = new Vector3(moveX, -moveY, moveZ);
+        Vector3 tiltShip = new Vector3(moveY*tilt,moveX*tilt,0.0f);
+           
         //Mover la nave
         //transform.Rotate(new Vector3(moveY * 2 * Time.deltaTime, moveX * 2 * Time.deltaTime, 0.0f));
-
         //transform.Translate(Vector3.forward * moveZ * Time.deltaTime);
-        transform.Translate(moveShip * Time.deltaTime);
-        //transform.Rotate(tiltShip * Time.deltaTime);
 
+        transform.Translate(moveShip * Time.deltaTime);
+        transform.Rotate(tiltShip * Time.deltaTime);
 
         //Evitar que la nave salga del obturador de la cámara
         transform.position = new Vector3(
@@ -70,21 +69,19 @@ public class Movimiento : MonoBehaviour {
             Mathf.Clamp(transform.position.y, boundary.yMin, boundary.yMax),
             GameObject.FindGameObjectWithTag("MainCamera").transform.position.z + 20.0f
         );
-        
+       
         /*
         //Leer orientación
         Vector3 currentRotation = transform.rotation.eulerAngles;
-
+        
         //Clampear orientación leída
         currentRotation.x = Mathf.Clamp(currentRotation.x, rotationbound.rotXMin, rotationbound.rotXMax);
         currentRotation.y = Mathf.Clamp(currentRotation.y, rotationbound.rotYMin,rotationbound.rotYMax);
         currentRotation.z = 0.0f;
         //(No entiendo por que se traba...)
 
-        //Aplicar orientación Clampeada
+        //Aplicar rotación clampeada
         this.transform.rotation = Quaternion.Euler(currentRotation);
-
-        //transform.rotation = Quaternion.Euler(GetComponent<Rigidbody>().velocity.x * tilt, GetComponent<Rigidbody>().velocity.y * tilt, 0.0f);
         */
     }
 }
