@@ -46,7 +46,7 @@ public class Movimiento : MonoBehaviour {
             	
 	}
 
-	void FixedUpdate () {
+    void FixedUpdate() {
 
         //leer controles y generar el movimiento
         float moveX = Input.GetAxis("Horizontal") * movementSpeed;
@@ -54,14 +54,54 @@ public class Movimiento : MonoBehaviour {
         float moveZ = movementSpeed;
 
         Vector3 moveShip = new Vector3(moveX, -moveY, moveZ);
-        Vector3 tiltShip = new Vector3(moveY*tilt,moveX*tilt,0.0f);
-           
-        //Mover la nave
-        //transform.Rotate(new Vector3(moveY * 2 * Time.deltaTime, moveX * 2 * Time.deltaTime, 0.0f));
-        //transform.Translate(Vector3.forward * moveZ * Time.deltaTime);
 
-        transform.Translate(moveShip * Time.deltaTime);
-        transform.Rotate(tiltShip * Time.deltaTime);
+        float turnX = moveY * tilt;
+        float turnY = moveX * tilt;
+
+        /*
+        Vector3 tiltShip = new Vector3(0.0f, 0.0f, 0.0f);
+
+        if (moveX > 0)
+        {
+            tiltShip = new Vector3(
+                Mathf.Clamp(turnX, 0.0f, rotationbound.rotXMax),
+                GetComponent<Transform>().rotation.eulerAngles.y,
+                0.0f);
+        }
+        else { 
+        tiltShip = new Vector3(
+            Mathf.Clamp(-turnX, rotationbound.rotXMin, 0.0f), 
+            GetComponent<Transform>().rotation.eulerAngles.y, 
+            0.0f);
+        }
+
+        if (moveY > 0)
+        {
+            tiltShip = new Vector3(
+                GetComponent<Transform>().rotation.eulerAngles.x,
+                Mathf.Clamp(-turnY, 0.0f, rotationbound.rotYMax),
+                0.0f);
+        }
+        else
+        {
+            tiltShip = new Vector3(
+                GetComponent<Transform>().rotation.eulerAngles.x,
+                Mathf.Clamp(turnY, rotationbound.rotYMin,0.0f),
+                0.0f);
+        }
+
+
+        if(moveX == 0)
+            tiltShip = new Vector3(0.0f, GetComponent<Transform>().rotation.eulerAngles.y, 0.0f);
+
+        if (moveY == 0)
+            tiltShip = new Vector3(GetComponent<Transform>().rotation.eulerAngles.x,0.0f, 0.0f);
+
+        */
+        //Mover la nave
+        
+        transform.Translate(moveShip * Time.deltaTime); //Desplaza la nave por la pantalla
+        //transform.Rotate(tiltShip * Time.deltaTime); //Se supone que debería de rotar la nave, pero...
 
         //Evitar que la nave salga del obturador de la cámara
         transform.position = new Vector3(
@@ -72,7 +112,7 @@ public class Movimiento : MonoBehaviour {
        
         /*
         //Leer orientación
-        Vector3 currentRotation = transform.rotation.eulerAngles;
+        Vector3 currentRotation = transform.eulerAngles;
         
         //Clampear orientación leída
         currentRotation.x = Mathf.Clamp(currentRotation.x, rotationbound.rotXMin, rotationbound.rotXMax);
@@ -82,6 +122,6 @@ public class Movimiento : MonoBehaviour {
 
         //Aplicar rotación clampeada
         this.transform.rotation = Quaternion.Euler(currentRotation);
-        */
+     */   
     }
 }
