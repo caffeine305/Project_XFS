@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project_XFS", "Project_XFS.csproj", "{83C6BD01-CE13-98BD-97F9-208139C18B9D}"
 EndProject
 Global

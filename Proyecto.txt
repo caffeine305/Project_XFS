@@ -1,0 +1,12 @@
+Project XFS es un juego de disparos de naves en 3d sobre vías que toma sus bases de las sagas Star Fox, Panzer Dragoon y Kid Icarus Uprising.
+
+Consta de 6 niveles principales:
+
+-Bosque
+-Desierto
+-Nieve
+-Océano
+-Espacio exterior
+-Ciudad en la luna
+
+Trata sobre un lobito que encontró una armadura que le permite volar. Alienígenas de una asociación delictiva lo perseguirán para quitarle la armadura y el tendrá que derrotar al jefe criminal alien.
