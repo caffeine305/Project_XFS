@@ -80,6 +80,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\Movimiento.cs" />
+    <Compile Include="Assets\Scripts\OutofBounds.cs" />
     <Compile Include="Assets\Scripts\ShotMove.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

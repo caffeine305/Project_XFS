@@ -9,7 +9,7 @@ public class ShotMove : MonoBehaviour {
 
         GetComponent<Rigidbody>().velocity = transform.right * speed;
         //Ojo con esto: El Spawn Point está rotado -90, por eso la dirección es transform.right.
-        //Quizá mas adelante arregle el spawn point a 0° y la dirección a transform.forward (sería lo mas natura)
+        //Quizá mas adelante arregle el spawn point a 0° y la dirección a transform.forward (sería lo mas natural)
         //pero por lo pronto así jala bien.
 	}
 	
