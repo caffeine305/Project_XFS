@@ -59,12 +59,24 @@ public class Movimiento : MonoBehaviour {
         transform.Translate(moveShip * Time.deltaTime); //Desplaza la nave por la pantalla
 
         //Evitar que la nave salga del obturador de la cámara
+
         transform.position = new Vector3(
             Mathf.Clamp(transform.position.x, boundary.xMin, boundary.xMax),
             Mathf.Clamp(transform.position.y, boundary.yMin, boundary.yMax),
             GameObject.FindGameObjectWithTag("MainCamera").transform.position.z + 20.0f
         );
 
-        GetComponent<Rigidbody>().rotation = Quaternion.Euler(GetComponent<Rigidbody>().velocity.y * -tilt, GetComponent<Rigidbody>().velocity.x *tilt, GetComponent<Rigidbody>().velocity.x * -tilt);
+        GetComponent<Rigidbody>().rotation = Quaternion.Euler(GetComponent<Rigidbody>().velocity.y * -tilt, GetComponent<Rigidbody>().velocity.x * tilt, 0.0f);
+
+        /*
+        if (moveX == 0)
+        {
+            GetComponent<Rigidbody>().rotation = Quaternion.Euler(GetComponent<Rigidbody>().velocity.y * -tilt, 0.0f, 0.0f);
+        }
+        else
+        {
+            GetComponent<Rigidbody>().rotation = Quaternion.Euler(0.0f, GetComponent<Rigidbody>().velocity.x * tilt, 0.0f);
+        }
+        */
     }
 }
