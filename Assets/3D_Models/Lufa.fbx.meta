@@ -1,21 +1,15 @@
 fileFormatVersion: 2
-guid: ada2531b44317044b82a8a0d5f0d45f3
-timeCreated: 1508338890
+guid: 73a325910643e47489eb566cea5b5672
+timeCreated: 1520751803
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Camera
-    100002: Cube
-    100004: Lamp
-    100006: //RootNode
-    400000: Camera
-    400002: Cube
-    400004: Lamp
-    400006: //RootNode
-    2300000: Cube
-    3300000: Cube
-    4300000: Cube
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Lufa
   materials:
     importMaterials: 1
     materialName: 0
