@@ -19,4 +19,6 @@ ToDoList:
 *investigar animales
 *generar enemigos
 *generar assets para escenario
-*generar escenarios
+
+*Componer Material Piso Stage 2.
+*Averiguar como se puede incluir animación y coloreado del agua.
