@@ -10,3 +10,13 @@ Consta de 6 niveles principales:
 -Ciudad en la luna
 
 Trata sobre un lobito que encontró una armadura que le permite volar. Alienígenas de una asociación delictiva lo perseguirán para quitarle la armadura y el tendrá que derrotar al jefe criminal alien.
+
+
+
+ToDoList:
+
+*Animar cuca
+*investigar animales
+*generar enemigos
+*generar assets para escenario
+*generar escenarios
