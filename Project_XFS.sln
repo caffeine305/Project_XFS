@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project_XFS", "Project_XFS.csproj", "{83C6BD01-CE13-98BD-97F9-208139C18B9D}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project_XFS", "Assembly-CSharp.csproj", "{76EA2251-F123-6039-5330-5C7A86654E24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{83C6BD01-CE13-98BD-97F9-208139C18B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{83C6BD01-CE13-98BD-97F9-208139C18B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{83C6BD01-CE13-98BD-97F9-208139C18B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{83C6BD01-CE13-98BD-97F9-208139C18B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76EA2251-F123-6039-5330-5C7A86654E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EA2251-F123-6039-5330-5C7A86654E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EA2251-F123-6039-5330-5C7A86654E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EA2251-F123-6039-5330-5C7A86654E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

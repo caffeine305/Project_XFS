@@ -120,18 +120,18 @@ ModelImporter:
     4300008: Alitas
     4300010: Patas
     7400000: AntenaR|Armature.001Action
-    7400002: AntenaR|ArmatureAction
+    7400002: AntenaR
     7400004: AntenaR|CameraAction
-    7400006: AntenaL|Armature.001Action
+    7400006: AntenaL
     7400008: AntenaL|ArmatureAction
     7400010: AntenaL|CameraAction
-    7400012: Alas|AlasAction
+    7400012: Alas
     7400014: Alas|Armature.001Action
     7400016: Alas|ArmatureAction
     7400018: Alas|CameraAction
     7400020: Armature.Patas|AlasAction
     7400022: Armature.Patas|Armature.001Action
-    7400024: Armature.Patas|Armature.PatasAction
+    7400024: Patas
     7400026: Armature.Patas|ArmatureAction
     7400028: Armature.Patas|CameraAction
     9500000: //RootNode
@@ -161,7 +161,527 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: AntenaR
+      takeName: AntenaR|ArmatureAction
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Alas
+        weight: 1
+      - path: Alas/Bone
+        weight: 1
+      - path: Alas/Bone/Bone_end
+        weight: 1
+      - path: Alas/Bone.001
+        weight: 1
+      - path: Alas/Bone.001/Bone.001_end
+        weight: 1
+      - path: Alas/Bone.002
+        weight: 1
+      - path: Alas/Bone.002/Bone.002_end
+        weight: 1
+      - path: Alas/Bone.003
+        weight: 1
+      - path: Alas/Bone.003/Bone.003_end
+        weight: 1
+      - path: Alitas
+        weight: 1
+      - path: Antena1.000
+        weight: 1
+      - path: Antena1.002
+        weight: 1
+      - path: AntenaL
+        weight: 1
+      - path: AntenaL/Bone 1
+        weight: 1
+      - path: AntenaL/Bone 1/Bone.001 1
+        weight: 1
+      - path: AntenaL/Bone 1/Bone.001 1/Bone.002 1
+        weight: 1
+      - path: AntenaL/Bone 1/Bone.001 1/Bone.002 1/Bone.002_end 1
+        weight: 1
+      - path: AntenaR
+        weight: 1
+      - path: AntenaR/Bone 2
+        weight: 1
+      - path: AntenaR/Bone 2/Bone.001 2
+        weight: 1
+      - path: AntenaR/Bone 2/Bone.001 2/Bone.002 2
+        weight: 1
+      - path: AntenaR/Bone 2/Bone.001 2/Bone.002 2/Bone.002_end 2
+        weight: 1
+      - path: Armature.Patas
+        weight: 1
+      - path: Armature.Patas/Bone 3
+        weight: 1
+      - path: Armature.Patas/Bone 3/Bone.001 3
+        weight: 1
+      - path: Armature.Patas/Bone 3/Bone.001 3/Bone.002 3
+        weight: 1
+      - path: Armature.Patas/Bone 3/Bone.001 3/Bone.002 3/Bone.002_end 3
+        weight: 1
+      - path: Armature.Patas/Bone.003 1
+        weight: 1
+      - path: Armature.Patas/Bone.003 1/Bone.004
+        weight: 1
+      - path: Armature.Patas/Bone.003 1/Bone.004/Bone.005
+        weight: 1
+      - path: Armature.Patas/Bone.003 1/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature.Patas/Bone.006
+        weight: 1
+      - path: Armature.Patas/Bone.006/Bone.007
+        weight: 1
+      - path: Armature.Patas/Bone.006/Bone.007/Bone.008
+        weight: 1
+      - path: Armature.Patas/Bone.006/Bone.007/Bone.008/Bone.008_end
+        weight: 1
+      - path: Armature.Patas/Bone.009
+        weight: 1
+      - path: Armature.Patas/Bone.009/Bone.010
+        weight: 1
+      - path: Armature.Patas/Bone.009/Bone.010/Bone.011
+        weight: 1
+      - path: Armature.Patas/Bone.009/Bone.010/Bone.011/Bone.011_end
+        weight: 1
+      - path: Armature.Patas/Bone.012
+        weight: 1
+      - path: Armature.Patas/Bone.012/Bone.013
+        weight: 1
+      - path: Armature.Patas/Bone.012/Bone.013/Bone.014
+        weight: 1
+      - path: Armature.Patas/Bone.012/Bone.013/Bone.014/Bone.014_end
+        weight: 1
+      - path: Armature.Patas/Bone.015
+        weight: 1
+      - path: Armature.Patas/Bone.015/Bone.016
+        weight: 1
+      - path: Armature.Patas/Bone.015/Bone.016/Bone.017
+        weight: 1
+      - path: Armature.Patas/Bone.015/Bone.016/Bone.017/Bone.017_end
+        weight: 1
+      - path: Cabeza
+        weight: 1
+      - path: Cuerpo
+        weight: 1
+      - path: Patas
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AntenaL
+      takeName: AntenaL|Armature.001Action
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Alas
+        weight: 1
+      - path: Alas/Bone
+        weight: 1
+      - path: Alas/Bone/Bone_end
+        weight: 1
+      - path: Alas/Bone.001
+        weight: 1
+      - path: Alas/Bone.001/Bone.001_end
+        weight: 1
+      - path: Alas/Bone.002
+        weight: 1
+      - path: Alas/Bone.002/Bone.002_end
+        weight: 1
+      - path: Alas/Bone.003
+        weight: 1
+      - path: Alas/Bone.003/Bone.003_end
+        weight: 1
+      - path: Alitas
+        weight: 1
+      - path: Antena1.000
+        weight: 1
+      - path: Antena1.002
+        weight: 1
+      - path: AntenaL
+        weight: 1
+      - path: AntenaL/Bone 1
+        weight: 1
+      - path: AntenaL/Bone 1/Bone.001 1
+        weight: 1
+      - path: AntenaL/Bone 1/Bone.001 1/Bone.002 1
+        weight: 1
+      - path: AntenaL/Bone 1/Bone.001 1/Bone.002 1/Bone.002_end 1
+        weight: 1
+      - path: AntenaR
+        weight: 1
+      - path: AntenaR/Bone 2
+        weight: 1
+      - path: AntenaR/Bone 2/Bone.001 2
+        weight: 1
+      - path: AntenaR/Bone 2/Bone.001 2/Bone.002 2
+        weight: 1
+      - path: AntenaR/Bone 2/Bone.001 2/Bone.002 2/Bone.002_end 2
+        weight: 1
+      - path: Armature.Patas
+        weight: 1
+      - path: Armature.Patas/Bone 3
+        weight: 1
+      - path: Armature.Patas/Bone 3/Bone.001 3
+        weight: 1
+      - path: Armature.Patas/Bone 3/Bone.001 3/Bone.002 3
+        weight: 1
+      - path: Armature.Patas/Bone 3/Bone.001 3/Bone.002 3/Bone.002_end 3
+        weight: 1
+      - path: Armature.Patas/Bone.003 1
+        weight: 1
+      - path: Armature.Patas/Bone.003 1/Bone.004
+        weight: 1
+      - path: Armature.Patas/Bone.003 1/Bone.004/Bone.005
+        weight: 1
+      - path: Armature.Patas/Bone.003 1/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature.Patas/Bone.006
+        weight: 1
+      - path: Armature.Patas/Bone.006/Bone.007
+        weight: 1
+      - path: Armature.Patas/Bone.006/Bone.007/Bone.008
+        weight: 1
+      - path: Armature.Patas/Bone.006/Bone.007/Bone.008/Bone.008_end
+        weight: 1
+      - path: Armature.Patas/Bone.009
+        weight: 1
+      - path: Armature.Patas/Bone.009/Bone.010
+        weight: 1
+      - path: Armature.Patas/Bone.009/Bone.010/Bone.011
+        weight: 1
+      - path: Armature.Patas/Bone.009/Bone.010/Bone.011/Bone.011_end
+        weight: 1
+      - path: Armature.Patas/Bone.012
+        weight: 1
+      - path: Armature.Patas/Bone.012/Bone.013
+        weight: 1
+      - path: Armature.Patas/Bone.012/Bone.013/Bone.014
+        weight: 1
+      - path: Armature.Patas/Bone.012/Bone.013/Bone.014/Bone.014_end
+        weight: 1
+      - path: Armature.Patas/Bone.015
+        weight: 1
+      - path: Armature.Patas/Bone.015/Bone.016
+        weight: 1
+      - path: Armature.Patas/Bone.015/Bone.016/Bone.017
+        weight: 1
+      - path: Armature.Patas/Bone.015/Bone.016/Bone.017/Bone.017_end
+        weight: 1
+      - path: Cabeza
+        weight: 1
+      - path: Cuerpo
+        weight: 1
+      - path: Patas
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Alas
+      takeName: Alas|AlasAction
+      firstFrame: 0
+      lastFrame: 63
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Alas
+        weight: 1
+      - path: Alas/Bone
+        weight: 1
+      - path: Alas/Bone/Bone_end
+        weight: 1
+      - path: Alas/Bone.001
+        weight: 1
+      - path: Alas/Bone.001/Bone.001_end
+        weight: 1
+      - path: Alas/Bone.002
+        weight: 1
+      - path: Alas/Bone.002/Bone.002_end
+        weight: 1
+      - path: Alas/Bone.003
+        weight: 1
+      - path: Alas/Bone.003/Bone.003_end
+        weight: 1
+      - path: Alitas
+        weight: 1
+      - path: Antena1.000
+        weight: 1
+      - path: Antena1.002
+        weight: 1
+      - path: AntenaL
+        weight: 1
+      - path: AntenaL/Bone 1
+        weight: 1
+      - path: AntenaL/Bone 1/Bone.001 1
+        weight: 1
+      - path: AntenaL/Bone 1/Bone.001 1/Bone.002 1
+        weight: 1
+      - path: AntenaL/Bone 1/Bone.001 1/Bone.002 1/Bone.002_end 1
+        weight: 1
+      - path: AntenaR
+        weight: 1
+      - path: AntenaR/Bone 2
+        weight: 1
+      - path: AntenaR/Bone 2/Bone.001 2
+        weight: 1
+      - path: AntenaR/Bone 2/Bone.001 2/Bone.002 2
+        weight: 1
+      - path: AntenaR/Bone 2/Bone.001 2/Bone.002 2/Bone.002_end 2
+        weight: 1
+      - path: Armature.Patas
+        weight: 1
+      - path: Armature.Patas/Bone 3
+        weight: 1
+      - path: Armature.Patas/Bone 3/Bone.001 3
+        weight: 1
+      - path: Armature.Patas/Bone 3/Bone.001 3/Bone.002 3
+        weight: 1
+      - path: Armature.Patas/Bone 3/Bone.001 3/Bone.002 3/Bone.002_end 3
+        weight: 1
+      - path: Armature.Patas/Bone.003 1
+        weight: 1
+      - path: Armature.Patas/Bone.003 1/Bone.004
+        weight: 1
+      - path: Armature.Patas/Bone.003 1/Bone.004/Bone.005
+        weight: 1
+      - path: Armature.Patas/Bone.003 1/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature.Patas/Bone.006
+        weight: 1
+      - path: Armature.Patas/Bone.006/Bone.007
+        weight: 1
+      - path: Armature.Patas/Bone.006/Bone.007/Bone.008
+        weight: 1
+      - path: Armature.Patas/Bone.006/Bone.007/Bone.008/Bone.008_end
+        weight: 1
+      - path: Armature.Patas/Bone.009
+        weight: 1
+      - path: Armature.Patas/Bone.009/Bone.010
+        weight: 1
+      - path: Armature.Patas/Bone.009/Bone.010/Bone.011
+        weight: 1
+      - path: Armature.Patas/Bone.009/Bone.010/Bone.011/Bone.011_end
+        weight: 1
+      - path: Armature.Patas/Bone.012
+        weight: 1
+      - path: Armature.Patas/Bone.012/Bone.013
+        weight: 1
+      - path: Armature.Patas/Bone.012/Bone.013/Bone.014
+        weight: 1
+      - path: Armature.Patas/Bone.012/Bone.013/Bone.014/Bone.014_end
+        weight: 1
+      - path: Armature.Patas/Bone.015
+        weight: 1
+      - path: Armature.Patas/Bone.015/Bone.016
+        weight: 1
+      - path: Armature.Patas/Bone.015/Bone.016/Bone.017
+        weight: 1
+      - path: Armature.Patas/Bone.015/Bone.016/Bone.017/Bone.017_end
+        weight: 1
+      - path: Cabeza
+        weight: 1
+      - path: Cuerpo
+        weight: 1
+      - path: Patas
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Patas
+      takeName: Armature.Patas|Armature.PatasAction
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Alas
+        weight: 1
+      - path: Alas/Bone
+        weight: 1
+      - path: Alas/Bone/Bone_end
+        weight: 1
+      - path: Alas/Bone.001
+        weight: 1
+      - path: Alas/Bone.001/Bone.001_end
+        weight: 1
+      - path: Alas/Bone.002
+        weight: 1
+      - path: Alas/Bone.002/Bone.002_end
+        weight: 1
+      - path: Alas/Bone.003
+        weight: 1
+      - path: Alas/Bone.003/Bone.003_end
+        weight: 1
+      - path: Alitas
+        weight: 1
+      - path: Antena1.000
+        weight: 1
+      - path: Antena1.002
+        weight: 1
+      - path: AntenaL
+        weight: 1
+      - path: AntenaL/Bone 1
+        weight: 1
+      - path: AntenaL/Bone 1/Bone.001 1
+        weight: 1
+      - path: AntenaL/Bone 1/Bone.001 1/Bone.002 1
+        weight: 1
+      - path: AntenaL/Bone 1/Bone.001 1/Bone.002 1/Bone.002_end 1
+        weight: 1
+      - path: AntenaR
+        weight: 1
+      - path: AntenaR/Bone 2
+        weight: 1
+      - path: AntenaR/Bone 2/Bone.001 2
+        weight: 1
+      - path: AntenaR/Bone 2/Bone.001 2/Bone.002 2
+        weight: 1
+      - path: AntenaR/Bone 2/Bone.001 2/Bone.002 2/Bone.002_end 2
+        weight: 1
+      - path: Armature.Patas
+        weight: 1
+      - path: Armature.Patas/Bone 3
+        weight: 1
+      - path: Armature.Patas/Bone 3/Bone.001 3
+        weight: 1
+      - path: Armature.Patas/Bone 3/Bone.001 3/Bone.002 3
+        weight: 1
+      - path: Armature.Patas/Bone 3/Bone.001 3/Bone.002 3/Bone.002_end 3
+        weight: 1
+      - path: Armature.Patas/Bone.003 1
+        weight: 1
+      - path: Armature.Patas/Bone.003 1/Bone.004
+        weight: 1
+      - path: Armature.Patas/Bone.003 1/Bone.004/Bone.005
+        weight: 1
+      - path: Armature.Patas/Bone.003 1/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature.Patas/Bone.006
+        weight: 1
+      - path: Armature.Patas/Bone.006/Bone.007
+        weight: 1
+      - path: Armature.Patas/Bone.006/Bone.007/Bone.008
+        weight: 1
+      - path: Armature.Patas/Bone.006/Bone.007/Bone.008/Bone.008_end
+        weight: 1
+      - path: Armature.Patas/Bone.009
+        weight: 1
+      - path: Armature.Patas/Bone.009/Bone.010
+        weight: 1
+      - path: Armature.Patas/Bone.009/Bone.010/Bone.011
+        weight: 1
+      - path: Armature.Patas/Bone.009/Bone.010/Bone.011/Bone.011_end
+        weight: 1
+      - path: Armature.Patas/Bone.012
+        weight: 1
+      - path: Armature.Patas/Bone.012/Bone.013
+        weight: 1
+      - path: Armature.Patas/Bone.012/Bone.013/Bone.014
+        weight: 1
+      - path: Armature.Patas/Bone.012/Bone.013/Bone.014/Bone.014_end
+        weight: 1
+      - path: Armature.Patas/Bone.015
+        weight: 1
+      - path: Armature.Patas/Bone.015/Bone.016
+        weight: 1
+      - path: Armature.Patas/Bone.015/Bone.016/Bone.017
+        weight: 1
+      - path: Armature.Patas/Bone.015/Bone.016/Bone.017/Bone.017_end
+        weight: 1
+      - path: Cabeza
+        weight: 1
+      - path: Cuerpo
+        weight: 1
+      - path: Patas
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -170,7 +690,7 @@ ModelImporter:
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

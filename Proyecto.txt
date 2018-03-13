@@ -15,10 +15,8 @@ Trata sobre un lobito que encontró una armadura que le permite volar. Alienígena
 
 ToDoList:
 
-*Animar cuca
 *investigar animales
 *generar enemigos
 *generar assets para escenario
 
-*Componer Material Piso Stage 2.
-*Averiguar como se puede incluir animación y coloreado del agua.
+*Averiguar como se puede incluir animación del agua.
