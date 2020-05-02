@@ -1,0 +1,310 @@
+# Blender MTL File: 'None'
+# Material Count: 28
+
+newmtl Cabeza
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.006
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.013
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.014
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.015
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.019
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.020
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.021
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.022
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.023
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.024
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.025
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.026
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.027
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.028
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.029
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.030
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.031
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.032
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cabeza.033
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cuca
+Ns 488.235294
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cuca.001
+Ns 488.235294
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
+
+newmtl Cuca.002
+Ns 488.235294
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ricardo\\Documents\\GitHub\\Project_XFS\\Assets\\Materials\\Cuca.png
