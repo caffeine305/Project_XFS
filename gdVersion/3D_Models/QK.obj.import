@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/QK.obj-ad5fca76f23616e71fc20701097011fd.mesh"
+
+[deps]
+
+files=[ "res://.import/QK.obj-ad5fca76f23616e71fc20701097011fd.mesh" ]
+
+source_file="res://3D_Models/QK.obj"
+dest_files=[ "res://.import/QK.obj-ad5fca76f23616e71fc20701097011fd.mesh", "res://.import/QK.obj-ad5fca76f23616e71fc20701097011fd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/piedronska.obj-931e8f83ff3bd266b31028c95ada084a.mesh"
+
+[deps]
+
+files=[ "res://.import/piedronska.obj-931e8f83ff3bd266b31028c95ada084a.mesh" ]
+
+source_file="res://3D_Models/piedronska.obj"
+dest_files=[ "res://.import/piedronska.obj-931e8f83ff3bd266b31028c95ada084a.mesh", "res://.import/piedronska.obj-931e8f83ff3bd266b31028c95ada084a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Lufa.obj-dd8efe6ae7b0ae874bcac082ee43a4fc.mesh"
+
+[deps]
+
+files=[ "res://.import/Lufa.obj-dd8efe6ae7b0ae874bcac082ee43a4fc.mesh" ]
+
+source_file="res://3D_Models/Lufa.obj"
+dest_files=[ "res://.import/Lufa.obj-dd8efe6ae7b0ae874bcac082ee43a4fc.mesh", "res://.import/Lufa.obj-dd8efe6ae7b0ae874bcac082ee43a4fc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
