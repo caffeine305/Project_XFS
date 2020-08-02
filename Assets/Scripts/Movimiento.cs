@@ -17,7 +17,7 @@ public class Rotationbound
 public class Movimiento : MonoBehaviour {
 
 	public bool startedMovement = false;
-	public int movementSpeed = 25;
+	public int movementSpeed = 250;
 
     public Boundary boundary;
     public Rotationbound rotationbound;

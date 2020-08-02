@@ -58,14 +58,17 @@
      <Compile Include="Assets\Scripts\OnContactDestroy.cs" />
      <Compile Include="Assets\Scripts\OutofBounds.cs" />
      <Compile Include="Assets\Scripts\ShotMove.cs" />
+ <Reference Include="Unity.Polybrush">
+ <HintPath>C:/Users/Ricardo/Documents/GitHub/Project_XFS/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Polybrush.Editor">
+ <HintPath>C:/Users/Ricardo/Documents/GitHub/Project_XFS/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Ricardo/Documents/GitHub/Project_XFS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
  <HintPath>C:/Users/Ricardo/Documents/GitHub/Project_XFS/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/Ricardo/Documents/GitHub/Project_XFS/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/Ricardo/Documents/GitHub/Project_XFS/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
