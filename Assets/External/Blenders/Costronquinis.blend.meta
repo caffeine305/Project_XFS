@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: 20bd84964abbc984fb14d0d9132c84c8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera
+    100002: //RootNode
+    100004: Light
+    100006: Planos
+    100008: Plane
+    100010: Sun
+    400000: Camera
+    400002: //RootNode
+    400004: Light
+    400006: Planos
+    400008: Plane
+    400010: Sun
+    2000000: Camera
+    2100000: charola_corteza.001
+    2100002: charola_corteza.002
+    2100004: charola_corteza.003
+    2100006: charola_corteza.004
+    2100008: charola_corteza.005
+    2100010: charola_corteza.006
+    2100012: charola_corteza.007
+    2100014: charola_corteza.014
+    2100016: charola_corteza.013
+    2100018: charola_corteza.012
+    2100020: charola_corteza.011
+    2100022: charola_corteza.010
+    2100024: charola_corteza.009
+    2100026: charola_corteza.008
+    2100028: charola_corteza.031
+    2100030: charola_corteza.030
+    2100032: charola_corteza.028
+    2100034: charola_corteza.027
+    2100036: charola_corteza.026
+    2100038: charola_corteza.025
+    2100040: charola_corteza.024
+    2100042: charola_corteza.023
+    2100044: charola_corteza.022
+    2100046: charola_corteza.021
+    2100048: charola_corteza.020
+    2100050: charola_corteza.019
+    2100052: charola_corteza.018
+    2100054: charola_corteza.017
+    2100056: charola_corteza.016
+    2100058: charola_corteza.062
+    2100060: charola_corteza.061
+    2100062: charola_corteza.060
+    2100064: charola_corteza.059
+    2100066: charola_corteza.058
+    2100068: charola_corteza.057
+    2100070: charola_corteza.056
+    2100072: charola_corteza.055
+    2100074: charola_corteza.054
+    2100076: charola_corteza.053
+    2100078: charola_corteza.052
+    2100080: charola_corteza.051
+    2100082: charola_corteza.050
+    2100084: charola_corteza.049
+    2100086: charola_corteza.048
+    2100088: charola_corteza.047
+    2100090: charola_corteza.046
+    2100092: charola_corteza.045
+    2100094: charola_corteza.044
+    2100096: charola_corteza.043
+    2100098: charola_corteza.042
+    2100100: charola_corteza.041
+    2100102: charola_corteza.040
+    2100104: charola_corteza.039
+    2100106: charola_corteza.038
+    2100108: charola_corteza.037
+    2100110: charola_corteza.036
+    2100112: charola_corteza.035
+    2100114: charola_corteza.034
+    2100116: charola_corteza.032
+    2100118: No Name
+    2300000: Planos
+    2300002: //RootNode
+    2300004: Plane
+    3300000: Planos
+    3300002: //RootNode
+    3300004: Plane
+    4300000: Planos
+    4300002: Plane
+    10800000: Light
+    10800002: Sun
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
