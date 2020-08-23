@@ -17,6 +17,15 @@ ModelImporter:
     100022: rama7
     100024: rama7_2
     100026: Tronquini
+    100028: rama1_3
+    100030: rama2_2
+    100032: rama2_3
+    100034: rama2_4
+    100036: rama3_2
+    100038: rama4_2
+    100040: rama4_3
+    100042: rama5_2
+    100044: rama7_3
     400000: Camera
     400002: Light
     400004: Plane
@@ -31,6 +40,15 @@ ModelImporter:
     400022: rama7
     400024: rama7_2
     400026: Tronquini
+    400028: rama1_3
+    400030: rama2_2
+    400032: rama2_3
+    400034: rama2_4
+    400036: rama3_2
+    400038: rama4_2
+    400040: rama4_3
+    400042: rama5_2
+    400044: rama7_3
     2000000: Camera
     2100000: Tronquiplano
     2100002: mat_rama1
@@ -51,6 +69,15 @@ ModelImporter:
     2300016: rama7
     2300018: rama7_2
     2300020: Tronquini
+    2300022: rama1_3
+    2300024: rama2_2
+    2300026: rama2_3
+    2300028: rama2_4
+    2300030: rama3_2
+    2300032: rama4_2
+    2300034: rama4_3
+    2300036: rama5_2
+    2300038: rama7_3
     3300000: Plane
     3300002: rama1
     3300004: rama1_2
@@ -62,6 +89,15 @@ ModelImporter:
     3300016: rama7
     3300018: rama7_2
     3300020: Tronquini
+    3300022: rama1_3
+    3300024: rama2_2
+    3300026: rama2_3
+    3300028: rama2_4
+    3300030: rama3_2
+    3300032: rama4_2
+    3300034: rama4_3
+    3300036: rama5_2
+    3300038: rama7_3
     4300000: Plane
     4300002: rama1_2
     4300004: rama7_2
@@ -73,6 +109,15 @@ ModelImporter:
     4300016: rama6
     4300018: rama7
     4300020: Tronquini
+    4300022: rama2_2
+    4300024: rama3_2
+    4300026: rama4_2
+    4300028: rama5_2
+    4300030: rama1_3
+    4300032: rama2_3
+    4300034: rama2_4
+    4300036: rama4_3
+    4300038: rama7_3
     10800000: Light
   externalObjects: {}
   materials:
@@ -111,8 +156,8 @@ ModelImporter:
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -136,7 +181,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
