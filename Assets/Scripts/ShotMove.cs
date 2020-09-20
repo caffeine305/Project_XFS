@@ -20,5 +20,10 @@ public class ShotMove : MonoBehaviour {
         Destroy(this.gameObject);
     }
 
+    void Update()
+    {
+        Destroy(this.gameObject,5f);
+    }
+
 
 }

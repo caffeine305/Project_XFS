@@ -10,6 +10,7 @@ ModelImporter:
     400002: Empty
     400004: Icosphere
     2100000: Material.001
+    2100002: Material
     2300000: Icosphere
     3300000: Icosphere
     4300000: Icosphere
