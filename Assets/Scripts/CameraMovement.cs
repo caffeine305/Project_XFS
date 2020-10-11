@@ -6,13 +6,6 @@ public class CameraMovement : MonoBehaviour {
 
     public int cameraMoveSpeed = 25;
 
-
-    void Start () {
-
-
-    }
-
-
     void FixedUpdate() {
         float moveZ = cameraMoveSpeed; 
 

@@ -1,0 +1,14 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class disparoSemilla : MonoBehaviour
+{           
+    public float fireRate;
+    public Vector3 direccion;
+
+    void FixedUpdate ()
+    { 
+        SeedPooler.Instance.spawnSeeds("Semilla",transform.position,Quaternion.identity); 
+    } 
+} 

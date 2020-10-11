@@ -1,0 +1,50 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class enemyShotBehaviour : MonoBehaviour, IPooledSeed {
+
+    public float speed;
+    private Rigidbody body;
+ 
+    Vector3 GetNormal(Vector3 a, Vector3 b, Vector3 c)
+    {
+        // Find vectors corresponding to two of the sides of the triangle.
+        Vector3 side1 = b - a;
+        Vector3 side2 = c - a;
+
+        // Cross the vectors to get a perpendicular vector, then normalize it.
+        return Vector3.Cross(side1, side2).normalized;
+    }
+
+	public void OnSeedSpawn () 
+    {
+        body = GetComponent<Rigidbody>();
+        
+        Vector3 adelante = transform.forward;
+        Vector3 derecha = transform.right;
+        Vector3 arriba = transform.up;
+
+        //Vector3 orientation = GetNormal(adelante,derecha,arriba); 
+        //Vector3 orientation = adelante;
+        
+        transform.Rotate(new Vector3(45,30,15) );   
+
+        body.position = adelante;
+        body.AddForce(adelante * speed,ForceMode.Impulse);
+
+	}
+
+    private void OnTriggerEnter(Collider otherCol)
+    {
+        if(otherCol.tag == "EnemyShot")
+        {
+            return;
+        }
+        Destroy(otherCol.gameObject);
+        Destroy(this.gameObject);
+    }
+
+
+
+}
