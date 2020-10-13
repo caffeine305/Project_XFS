@@ -33,7 +33,7 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider otherCol)
     {
-        if(otherCol.tag == "EnemyShot")
+        if(otherCol.tag == "EnemyShot" || otherCol.tag == "MainCamera" || otherCol.tag == "Spawniard" || otherCol.tag == "GameController")
         {
             return;
         }

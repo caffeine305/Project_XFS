@@ -64,7 +64,9 @@
      <Compile Include="Assets\Scripts\OnContactDestroy.cs" />
      <Compile Include="Assets\Scripts\OutofBounds.cs" />
      <Compile Include="Assets\Scripts\rotate.cs" />
+     <Compile Include="Assets\Scripts\SelectiveEnemyRemover.cs" />
      <Compile Include="Assets\Scripts\ShotMove.cs" />
+     <Compile Include="Assets\Scripts\SpawnInvoker.cs" />
      <None Include="Assets\External\Shaders\psx-unlit.shader" />
      <None Include="Assets\External\Shaders\psx-unlit_noambient.shader" />
      <None Include="Assets\External\Shaders\Reflective\psx-unlit-mult.shader" />
