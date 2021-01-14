@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scripts\ShotMove.cs" />
      <Compile Include="Assets\Scripts\SpawnInvoker.cs" />
      <None Include="Assets\External\Shaders\psx-unlit.shader" />
+     <None Include="Assets\External\docs\trasfondo.txt" />
      <None Include="Assets\External\Shaders\psx-unlit_noambient.shader" />
      <None Include="Assets\External\Shaders\Reflective\psx-unlit-mult.shader" />
      <None Include="Assets\External\Shaders\Trasparent\psx-trasparent-unlit-noambient.shader" />
