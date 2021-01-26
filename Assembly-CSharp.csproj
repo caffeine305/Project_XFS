@@ -77,6 +77,7 @@
      <None Include="Assets\External\Shaders\Reflective\psx-unlit-add.shader" />
      <None Include="Assets\External\Shaders\Reflective\psx-vertexlit-mult.shader" />
      <None Include="Assets\External\Shaders\Reflective\psx-unlit_noambient-mult.shader" />
+     <None Include="Assets\External\docs\Escenarios.txt" />
      <None Include="Assets\External\Shaders\psx-vertexlit.shader" />
      <None Include="Assets\External\Shaders\Reflective\psx-unlit_noambient-add.shader" />
      <None Include="Assets\External\Shaders\Reflective\psx-vertexlit-add.shader" />
