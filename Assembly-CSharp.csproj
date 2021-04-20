@@ -53,35 +53,43 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\External\Shaders\Billboard\billboard.cs" />
-     <Compile Include="Assets\External\Shaders\imageEffects\cPrecision.cs" />
      <Compile Include="Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\BulletPool.cs" />
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
+     <Compile Include="Assets\Scripts\ConsecutiveSpawn.cs" />
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\FireBullet.cs" />
+     <Compile Include="Assets\Scripts\LogSpiral.cs" />
      <Compile Include="Assets\Scripts\Movimiento.cs" />
      <Compile Include="Assets\Scripts\OnContactDestroy.cs" />
+     <Compile Include="Assets\Scripts\Oscilate.cs" />
      <Compile Include="Assets\Scripts\OutofBounds.cs" />
      <Compile Include="Assets\Scripts\rotate.cs" />
      <Compile Include="Assets\Scripts\SelectiveEnemyRemover.cs" />
+     <Compile Include="Assets\Scripts\Senoidal.cs" />
      <Compile Include="Assets\Scripts\ShotMove.cs" />
      <Compile Include="Assets\Scripts\SpawnInvoker.cs" />
-     <None Include="Assets\External\Shaders\psx-unlit.shader" />
+     <Compile Include="Assets\Scripts\Tornilo.cs" />
+     <Compile Include="Assets\Shaders\Billboard\billboard.cs" />
+     <Compile Include="Assets\Shaders\imageEffects\cPrecision.cs" />
+     <None Include="Assets\Install Bolt\README.txt" />
+     <None Include="Assets\Shaders\psx-unlit.shader" />
      <None Include="Assets\External\docs\trasfondo.txt" />
-     <None Include="Assets\External\Shaders\psx-unlit_noambient.shader" />
-     <None Include="Assets\External\Shaders\Reflective\psx-unlit-mult.shader" />
-     <None Include="Assets\External\Shaders\Trasparent\psx-trasparent-unlit-noambient.shader" />
-     <None Include="Assets\External\Shaders\Trasparent\psx-trasparent-unlit.shader" />
-     <None Include="Assets\External\Shaders\Resources\cPrecision.shader" />
-     <None Include="Assets\External\Shaders\Reflective\psx-unlit-add.shader" />
-     <None Include="Assets\External\Shaders\Reflective\psx-vertexlit-mult.shader" />
-     <None Include="Assets\External\Shaders\Reflective\psx-unlit_noambient-mult.shader" />
+     <None Include="Assets\Shaders\psx-unlit_noambient.shader" />
+     <None Include="Assets\Shaders\UltimateOutline-master\UltimateOutline.shader" />
+     <None Include="Assets\Shaders\Reflective\psx-unlit-mult.shader" />
+     <None Include="Assets\Shaders\Trasparent\psx-trasparent-unlit-noambient.shader" />
+     <None Include="Assets\Shaders\Trasparent\psx-trasparent-unlit.shader" />
+     <None Include="Assets\Shaders\Resources\cPrecision.shader" />
+     <None Include="Assets\Shaders\Reflective\psx-unlit-add.shader" />
+     <None Include="Assets\Shaders\Reflective\psx-vertexlit-mult.shader" />
+     <None Include="Assets\Shaders\Reflective\psx-unlit_noambient-mult.shader" />
      <None Include="Assets\External\docs\Escenarios.txt" />
-     <None Include="Assets\External\Shaders\psx-vertexlit.shader" />
-     <None Include="Assets\External\Shaders\Reflective\psx-unlit_noambient-add.shader" />
-     <None Include="Assets\External\Shaders\Reflective\psx-vertexlit-add.shader" />
-     <None Include="Assets\External\Shaders\Trasparent\psx-trasparent-vertexlit.shader" />
+     <None Include="Assets\Shaders\UltimateOutline-master\UltimateOutlineShadows.shader" />
+     <None Include="Assets\Shaders\psx-vertexlit.shader" />
+     <None Include="Assets\Shaders\Reflective\psx-unlit_noambient-add.shader" />
+     <None Include="Assets\Shaders\Reflective\psx-vertexlit-add.shader" />
+     <None Include="Assets\Shaders\Trasparent\psx-trasparent-vertexlit.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Ricardo/Documents/GitHub/Project_XFS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
