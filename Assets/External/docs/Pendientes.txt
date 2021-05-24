@@ -1,0 +1,29 @@
+Pendientes:
+
+Revisar modelo de la nave agalotl
+Animación de explosión
+Pensar que patrones de movimiento serían interesantes para los enemigos.
+(Creo que un movimiento parabólico estaría cool)
+*Pintar los arañangrejos
+*Meter en Spawners las arañangrejos
+*Agregar el Shader de orillas en rojo para todos los objetos que sean balas.
+
+
+Enemigos:
+
+Ya hay: 
+dino-concha de la lora
+tumba 
+
+faltan:
+¿moscas?¿Cucas? Aves o cosas que vuelan.
+Cangre-araña con cañon en el lomo.
+Pollomaru (jefe?)
+
+Jefe de escena: Víbora cabeza de flor en forma de cáscara de mandarina y cuerpo de tortuga
+Jefe de escena: esta mezcla de budda con deidad maya...
+
+Power up: ¡frutitas!
+
+Menú de selección de escena: un sistema "solar" como el de Star Fox, pero la selección sería más bien como la de megaman.
+

@@ -22,6 +22,7 @@ public class Movimiento : MonoBehaviour {
     public Boundary boundary;
     public Rotationbound rotationbound;
     public float tilt;
+    RaycastHit rayHit;
 
     public GameObject shot;
     public Transform spawnPoint;
@@ -65,6 +66,17 @@ public class Movimiento : MonoBehaviour {
             Mathf.Clamp(transform.position.y, boundary.yMin, boundary.yMax),
             GameObject.FindGameObjectWithTag("MainCamera").transform.position.z + 20.0f
         );
+
+        //Se agregó un raycast para hacer la mira en pantalla.
+        Ray ray = new Ray(transform.position, transform.forward);
+        if(Physics.Raycast(ray, out rayHit)){
+            
+            Debug.DrawLine(ray.origin, rayHit.point, Color.blue);
+
+        }else {
+           
+            Debug.DrawLine(ray.origin, ray.origin + ray.direction, Color.red);
+        }
 
         GetComponent<Rigidbody>().rotation = Quaternion.Euler(GetComponent<Rigidbody>().velocity.y * -tilt, GetComponent<Rigidbody>().velocity.x * tilt, 0.0f);
 
